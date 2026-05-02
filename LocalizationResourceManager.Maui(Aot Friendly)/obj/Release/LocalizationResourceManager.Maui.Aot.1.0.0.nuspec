@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LocalizationResourceManager.Maui.Aot</id>
+    <version>1.0.0</version>
+    <title>AppMare LocalizationResourceManager.Maui</title>
+    <authors>Ibrahim Elkady</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/ibrahimelkady2001/AppMare</projectUrl>
+    <description>Enhanced .NET MAUI LocalizationResourceManager. Fork with NativeAOT-friendly fixes.</description>
+    <releaseNotes>NativeAOT-friendly fork with TranslateExtension fix.</releaseNotes>
+    <copyright>Copyright 2025 Ibrahim Elkady</copyright>
+    <tags>dotnet,dotnetmaui,localization</tags>
+    <repository type="git" url="https://github.com/ibrahimelkady2001/AppMare" />
+    <dependencies>
+      <group targetFramework="net9.0-ios18.0">
+        <dependency id="Microsoft.Maui.Controls" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0-maccatalyst18.0">
+        <dependency id="Microsoft.Maui.Controls" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/ibrahimelkady/Downloads/AppMare_Maui-1/AppMare Projects/AppMareMaui/LocalizationResourceManager.Maui(Aot Friendly)/bin/Release/net9.0-ios/LocalizationResourceManager.Maui.dll" target="lib/net9.0-ios18.0/LocalizationResourceManager.Maui.dll" />
+    <file src="/Users/ibrahimelkady/Downloads/AppMare_Maui-1/AppMare Projects/AppMareMaui/LocalizationResourceManager.Maui(Aot Friendly)/bin/Release/net9.0-maccatalyst/LocalizationResourceManager.Maui.dll" target="lib/net9.0-maccatalyst18.0/LocalizationResourceManager.Maui.dll" />
+  </files>
+</package>
