@@ -25,3 +25,13 @@ Usage is identical to the original:
 ## Credits
 
 All credit to **Johan Svensson**, Charlin Agramonte, Brandon Minnick, and Maksym Koshovyi for the original LocalizationResourceManager.Maui library.
+
+---
+
+<p align="center">
+  <a href="https://paypal.me/ibrahimelkady1">
+    <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" height="48">
+  </a>
+  <br>
+  <sub>If this project helped you, consider supporting my work ❤️</sub>
+</p>
